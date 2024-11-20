@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioEnClase.AbsoluteLayout"
+             Title="AbsoluteLayout">
+    <AbsoluteLayout>
+
+        <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <StackLayout Padding="10">
+              
+                <Label Text="CAN BEAGLE" FontSize="40" VerticalOptions="Center" HorizontalOptions="Start"/>
+                <ImageButton 
+                    Source="Resources/Images/beagle.jpg" HeightRequest="500" WidthRequest="500"/>
+                <Label Text="El Beagle es una de las razas de perro más populares, conocida por su tamaño compacto, su energía inagotable y su excepcional olfato. Esta raza se originó en Inglaterra y fue criada principalmente como un perro de caza, especialmente para la caza de conejos y liebres. Su agudo sentido del olfato, combinado con su carácter amigable y vivaz, lo convierte en un excelente compañero de trabajo para los cazadores. Los Beagles son perros de tamaño mediano, con una altura que varía entre 33 y 41 cm y un peso promedio de 9 a 11 kg. Tienen un pelaje corto y denso, generalmente en combinaciones de colores como blanco, marrón, negro y blanco, lo que les da un aspecto muy distintivo. Sus orejas largas y caídas y sus ojos grandes y expresivos le dan una apariencia simpática y tierna.
+                       El temperamento del Beagle es uno de sus mayores atractivos. Son perros extrovertidos, amigables, y extremadamente sociables, lo que los hace muy adecuados para familias con niños. Son conocidos por su naturaleza juguetona y su inclinación a formar fuertes lazos con sus dueños. A pesar de su ternura, los Beagles también son bastante independientes y pueden ser algo tercos, lo que a veces puede hacerlos difíciles de entrenar.
+                       En cuanto a su salud, los Beagles suelen ser perros robustos y longevos, con una esperanza de vida promedio de entre 12 y 15 años. Sin embargo, pueden ser propensos a algunos problemas de salud, como la obesidad, debido a su amor por la comida, por lo que es importante mantenerlos activos y bien alimentados. Además, su instinto de caza puede llevarlos a ser bastante persistentes con olores, lo que hace necesario un control adecuado cuando se encuentran en áreas no cerradas.
+                       En resumen, el Beagle es una raza encantadora, con un gran carácter y muchas cualidades que lo hacen ideal como mascota familiar." 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"
+                       LineBreakMode="WordWrap"
+                       FontSize="20"
+                       TextColor="WhiteSmoke"
+                />
+
+                <Label Text="IPad Pro 2023" FontSize="40" VerticalOptions="Center" HorizontalOptions="Start"/>
+                <ImageButton 
+                    Source="Resources/Images/ipad_pro.jpg" HeightRequest="300" WidthRequest="500" Aspect="AspectFill"/>
+                <Label Text="El iPad Pro es una tablet premium desarrollada por Apple, que se ha destacado por su potencia, diseño elegante y versatilidad. Lanzado por primera vez en 2015, el iPad Pro ha evolucionado significativamente, convirtiéndose en una de las opciones más populares para profesionales, creativos y usuarios que buscan una experiencia de tablet de alto rendimiento.
+                       Una de las principales características del iPad Pro es su impresionante pantalla. El modelo más reciente está disponible en dos tamaños: 11 pulgadas y 12.9 pulgadas, ambos con tecnología Liquid Retina que ofrece colores vibrantes, alta resolución y una frecuencia de actualización de hasta 120 Hz, lo que mejora la fluidez y la respuesta visual. El modelo de 12.9 pulgadas, en particular, cuenta con una pantalla mini-LED que mejora aún más el brillo y el contraste, ideal para profesionales del diseño gráfico, la edición de video y la fotografía.
+                       En cuanto al rendimiento, el iPad Pro está impulsado por el chip M2 de Apple (en sus versiones más recientes), lo que lo hace extremadamente rápido y capaz de manejar tareas complejas como la edición de videos 4K, el diseño 3D y la ejecución de aplicaciones de productividad avanzadas. Su compatibilidad con el Apple Pencil de segunda generación y el Magic Keyboard convierte al iPad Pro en una herramienta versátil para dibujar, escribir y trabajar en proyectos de manera eficiente.
+                       Además, el iPad Pro ofrece una excelente cámara frontal con Center Stage, que ajusta automáticamente el encuadre en videollamadas, y un sistema de cámaras traseras de alta calidad. Con capacidades de conexión como 5G y Wi-Fi 6, el iPad Pro también asegura una conectividad rápida y confiable.
+                       En resumen, el iPad Pro es una tablet de alto rendimiento que ofrece una combinación de potencia, versatilidad y diseño, convirtiéndola en una opción ideal para quienes buscan una experiencia informática móvil avanzada." 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"
+                       LineBreakMode="WordWrap"
+                       FontSize="20"
+                       TextColor="WhiteSmoke"
+                />
+
+
+                <Label Text="SUZUKI VITARA" FontSize="40" VerticalOptions="Center" HorizontalOptions="Start"/>
+                <ImageButton 
+                    Source="Resources/Images/suzukivitara.jpg" HeightRequest="300" WidthRequest="500" Aspect="AspectFill"/>
+                <Label Text="El Suzuki Vitara 2023 es un SUV compacto que combina estilo, tecnología y capacidad en un paquete accesible y eficiente. Con un diseño renovado, el Vitara mantiene su identidad robusta y versátil, pero con un toque moderno que lo hace destacar en su segmento. Este modelo es ideal para aquellos que buscan un vehículo con buenas prestaciones tanto para la ciudad como para aventuras fuera del asfalto.
+                       En términos de diseño, el Vitara 2023 presenta una parrilla delantera más prominente y un nuevo conjunto de luces LED, lo que le da una apariencia más dinámica y atractiva. Los detalles cromados y los nuevos colores disponibles en la gama aportan un toque de sofisticación. Además, su perfil robusto y su altura al suelo le otorgan una presencia imponente, mientras que sus dimensiones compactas lo hacen fácil de maniobrar en entornos urbanos.
+                       El interior del Vitara 2023 está diseñado para ofrecer comodidad y funcionalidad. El habitáculo es espacioso, con capacidad para cinco pasajeros, y cuenta con materiales de calidad y acabados modernos. El sistema de infoentretenimiento está bien equipado, con una pantalla táctil de 7 o 9 pulgadas, compatibilidad con Apple CarPlay y Android Auto, y opciones de conectividad avanzadas. Además, el maletero es lo suficientemente grande para adaptarse a las necesidades de viaje o carga.
+                       En cuanto a rendimiento, el Suzuki Vitara 2023 ofrece varias opciones de motorización, incluyendo versiones con motorización híbrida que aportan mayor eficiencia de combustible sin sacrificar la potencia. Con un sistema de tracción delantera o integral, el Vitara es capaz de afrontar diferentes condiciones de conducción, incluyendo terrenos difíciles, ofreciendo una conducción estable y segura.
+                       El Vitara 2023 también viene equipado con un paquete de tecnologías de seguridad avanzadas, como el sistema de asistencia al conductor, control de estabilidad, y frenado automático en caso de emergencia. En resumen, el Suzuki Vitara 2023 es un SUV compacto confiable, eficiente y con un excelente equilibrio entre diseño, tecnología y rendimiento."
+                       VerticalOptions="Start"
+                       LineBreakMode="WordWrap"
+                       FontSize="20"
+                       TextColor="WhiteSmoke"
+                />
+            </StackLayout>
+        </ScrollView>
+
+        <Button
+            x:Name="BotonGrind"
+            Text="Ir a GridLayout"
+            AbsoluteLayout.LayoutBounds="1,1,AutoSize,AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            Clicked="BotonGrind_Clicked"/>
+    </AbsoluteLayout>
+    
+</ContentPage>

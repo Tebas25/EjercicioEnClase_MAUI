@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioEnClase.StackLayout"
+             Title="StackLayout">
+    <VerticalStackLayout Margin="20,35,20,25" Spacing="15" Padding="10">
+        <Label Text="Esta es la página del StackLayout"
+               FontSize="50"
+               HorizontalOptions="Center" />
+
+        <Label Text="Elaborada por Sebastián Almeida"
+              FontSize="20"
+              HorizontalOptions="Center" />
+       
+        <Label Text="Taller de Programación MAUI 1"
+               FontSize="20"
+               HorizontalOptions="Center" />
+        <Button
+            x:Name="Boton2"
+            Text="Ir a la página de FlexLayout"
+            Clicked="Boton2_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

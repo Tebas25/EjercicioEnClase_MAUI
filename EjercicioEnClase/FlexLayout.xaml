@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioEnClase.FlexLayout"
+             Title="FlexLayout">
+    <ScrollView>
+        <FlexLayout Direction="Column"
+            AlignItems="Start"
+            Padding="10"
+            >
+
+            <StackLayout  Orientation="Horizontal" Spacing="10" Margin="0,10,0,10">
+
+                <ImageButton 
+                Source="Resources/Images/beagle.jpg" HeightRequest="500" WidthRequest="500"
+                    Clicked="ImageButton_Clicked"/>
+                <Label Text="        CAN BEAGLE" FontSize="40" VerticalOptions="Center" HorizontalOptions="Start"/>
+            </StackLayout>
+
+            <StackLayout  Orientation="Horizontal" Spacing="10" Margin="0,10,0,10">
+                <ImageButton 
+                    Source="Resources/Images/ipad_pro.jpg" HeightRequest="300" WidthRequest="500" Aspect="AspectFill"
+                    Clicked="ImageButton_Clicked"/>
+                <Label Text="        IPad Pro 202" FontSize="40" VerticalOptions="Center" HorizontalOptions="Start"/>
+            </StackLayout>
+
+            <StackLayout  Orientation="Horizontal" Spacing="10" Margin="0,10,0,10">
+                <ImageButton 
+                    Source="Resources/Images/suzukivitara.jpg" HeightRequest="300" WidthRequest="500" Aspect="AspectFill"
+                    Clicked="ImageButton_Clicked"/>
+                <Label Text="        SUZUKI VITARA" FontSize="40" VerticalOptions="Center" HorizontalOptions="Start"/>
+            </StackLayout>
+            
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>

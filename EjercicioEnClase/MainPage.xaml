@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioEnClase.MainPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" 
+               Text="Celda 1"
+               BackgroundColor="Orange"
+               TextColor="White"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="FillAndExpand"
+               FontSize="100" />
+
+        <Label Grid.Row="0" Grid.Column="1" 
+               Text="Celda 2"
+               BackgroundColor="DarkGreen"
+               TextColor="White"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="FillAndExpand"
+               FontSize="100" />
+
+        <Label Grid.Row="1" Grid.Column="0" 
+               Text="Celda 3"
+               BackgroundColor="DarkViolet"
+               TextColor="White"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="FillAndExpand"
+               FontSize="100" />
+
+        <Button Grid.Row="1" Grid.Column="1"
+                x:Name="Boton1"
+                Text="Ir a StackLayout"
+                BackgroundColor="Beige"
+                TextColor="Black"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                FontSize="50"
+                Clicked="Boton1_Clicked" />
+    </Grid>
+</ContentPage>
